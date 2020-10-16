@@ -1,37 +1,164 @@
-/* raleway-regular - latin_cyrillic */
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/raleway-v18-latin_cyrillic-regular.eot");
-  src: local(""),
-    url("../fonts/raleway-v18-latin_cyrillic-regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/raleway-v18-latin_cyrillic-regular.woff2") format("woff2"),
-    url("../fonts/raleway-v18-latin_cyrillic-regular.woff") format("woff"),
-    url("../fonts/raleway-v18-latin_cyrillic-regular.ttf") format("truetype"),
-    url("../fonts/raleway-v18-latin_cyrillic-regular.svg#Raleway") format("svg");
-}
-/* raleway-700 - latin_cyrillic */
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/raleway-v18-latin_cyrillic-700.eot");
-  src: local(""),
-    url("../fonts/raleway-v18-latin_cyrillic-700.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/raleway-v18-latin_cyrillic-700.woff2") format("woff2"),
-    url("../fonts/raleway-v18-latin_cyrillic-700.woff") format("woff"),
-    url("../fonts/raleway-v18-latin_cyrillic-700.ttf") format("truetype"),
-    url("../fonts/raleway-v18-latin_cyrillic-700.svg#Raleway") format("svg");
-}
-
 :root {
   --main-text-cl: #757575;
   --accent-cl: #2196f3;
   --black: #212121;
   --white: #ffffff;
-  --gray: #ffffff, 60%;
+  --gray: rgba(255, 255, 255, 0.6);
   --dark-bg: #2f303a;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
+}
+
+address {
+  font-style: normal;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-cl);
+}
+
+.link-logo {
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-cl);
+}
+
+.link-logo-black {
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+.link-logo-white {
+  text-decoration: none;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+
+.menu-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--black);
+}
+
+.mail-menu-link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-cl);
+}
+
+.dark-bg {
+  background-color: var(--dark-bg);
+}
+
+.title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.btn {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background-color: var(--accent-cl);
+}
+
+.heading {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.item-title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+.crew-name {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+.crew-position {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
+}
+
+.adress {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+
+.mail-menu {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--gray);
 }
