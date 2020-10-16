@@ -4,33 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
     <!-- Шапка сайта -->
     <header>
         <nav>
-            <a href="./index.html">WebStudio</a>
+            <a href="./" class="link-logo">Web</a>
+            <a href="./" class="link-logo-black">Studio</a>
     
             <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="#contacts">Контакты</a></li>
+                <li><a href="./" class="link menu-link">Студия</a></li>
+                <li><a href="./portfolio.html" class="link menu-link">Портфолио</a></li>
+                <li><a href="#contacts" class="link menu-link">Контакты</a></li>
             </ul>
     
             <ul>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="link mail-menu-link">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link mail-menu-link">+38 096 111 11 11</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section>
         <ul>
-            <li><button type="button">Все</button></li>
-            <li><button type="button">Веб-сайты</button></li>
-            <li><button type="button">Приложения</button></li>
-            <li><button type="button">Дизайн</button></li>
-            <li><button type="button">Маркетинг</button></li>
+            <li><button class="btn-portfolio" type="button">Все</button></li>
+            <li><button class="btn-portfolio" type="button">Веб-сайты</button></li>
+            <li><button class="btn-portfolio" type="button">Приложения</button></li>
+            <li><button class="btn-portfolio" type="button">Дизайн</button></li>
+            <li><button class="btn-portfolio" type="button">Маркетинг</button></li>
         </ul>
         </section>
 
@@ -85,19 +89,21 @@
     </main>
     <!-- Футер -->
     <footer>
-        <section>
+        <section class="dark-bg">
             <section id="contacts">
-                <span><a href="./index.html">WebStudio</a></span>
+                <span><a href="./" class="link-logo">Web</a>
+                    <a href="./" class="link-logo-white">Studio</a></span>
                 <address>
                     <ul>
                         <li>
-                            <a href="https://goo.gl/maps/73yQ8bq3998Z3wym6" target="_blank" rel="noopener noreferer">г.Киев,
-                                пр-т Леси Украинки, 26</a>
+                            <a href="https://goo.gl/maps/73yQ8bq3998Z3wym6" target="_blank" rel="noopener noreferer"
+                                class="link adress">г.Киев, пр-т Леси Украинки, 26</a>
                         </li>
                         <li>
-                            <a href="https://info@example.com" target="_blank" rel="noopener noreferer">info@example.com</a>
+                            <a href="https://info@example.com" target="_blank" rel="noopener noreferer"
+                                class="link mail-menu">info@example.com</a>
                         </li>
-                        <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+                        <li><a href="tel:+380991111111" class="link mail-menu">+38 099 111 11 11</a></li>
                     </ul>
                 </address>
             </section>
