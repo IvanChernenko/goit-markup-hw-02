@@ -185,3 +185,21 @@ address {
   letter-spacing: 0.03em;
   color: var(--gray);
 }
+
+.portfolio {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black);
+}
+
+.portfolio-dscr {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--main-text-cl);
+}
