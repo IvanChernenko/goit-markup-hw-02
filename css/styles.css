@@ -32,6 +32,11 @@ address {
 
 .current-page {
   text-decoration: none;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--accent-cl);
 }
 .current-page:hover,
