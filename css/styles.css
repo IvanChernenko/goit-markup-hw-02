@@ -30,9 +30,22 @@ address {
   color: var(--accent-cl);
 }
 
+.current-page {
+  text-decoration: none;
+  color: var(--accent-cl);
+}
+.current-page:hover,
+.current-page:focus {
+  color: var(--black);
+}
+
+.list {
+  list-style-type: none;
+}
+
 .link-logo {
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, Oleo Script;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -42,7 +55,7 @@ address {
 
 .link-logo-black {
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, Oleo Script;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -52,7 +65,7 @@ address {
 
 .link-logo-white {
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, Oleo Script;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;

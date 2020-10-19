@@ -6,6 +6,7 @@
     <title>WebStudio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -13,20 +14,19 @@
     <!-- Шапка сайта -->
     <header>
       <nav>
-        <a href="./" class="link-logo">Web</a>
-        <a href="./" class="link-logo-black">Studio</a>
+        <a href="./index.html" class="link-logo">Web<span class="link-logo-black">Studio</span></a>
 
-        <ul>
-          <li><a href="./" class="link menu-link">Студия</a></li>
+        <ul class="list">
+          <li><a href="./index.html" class="current-page">Студия</a></li>
           <li><a href="./portfolio.html" class="link menu-link">Портфолио</a></li>
           <li><a href="#contacts" class="link menu-link">Контакты</a></li>
         </ul>
-
-        <ul>
+      </nav>
+        <ul class="list">
           <li><a href="mailto:info@devstudio.com" class="link mail-menu-link">info@devstudio.com</a></li>
           <li><a href="tel:+380961111111" class="link mail-menu-link">+38 096 111 11 11</a></li>
         </ul>
-      </nav>
+      
     </header>
 
     <main>
@@ -41,7 +41,7 @@
 
       <!-- Преимущества -->
       <section>
-        <ul>
+        <ul class="list">
           <li>
             <h3 class="heading">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
             <p>
@@ -76,7 +76,7 @@
       <section>
         <h2 class="item-title">Чем мы занимаемся</h2>
 
-        <ul>
+        <ul class="list">
           <li>
             <img src="./img/programer.jpg" alt="Programer working his desk"
               width="370"/>
@@ -102,7 +102,7 @@
       <section>
         <h2 class="item-title">Наша команда</h2>
 
-        <ul>
+        <ul class="list">
           <li>
             <img src="./img/igor.jpg" alt="Игорь Демьяненко" width="270" />
             <h4 class="crew-name">Игорь Демьяненко</h4>
@@ -128,11 +128,10 @@
     </main>
     <!-- Футер -->
     <footer>
-      <section id="contacts" class="dark-bg">
-        <span><a href="./" class="link-logo">Web</a>
-        <a href="./" class="link-logo-white">Studio</a></span>
+      <div id="contacts" class="dark-bg">
+        <a href="./index.html" class="link-logo">Web<span class="link-logo-white">Studio</span></a>
         <address>
-         <ul>
+         <ul class="list">
           <li>
             <a
               href="https://goo.gl/maps/73yQ8bq3998Z3wym6"
@@ -152,7 +151,7 @@
           <li><a href="tel:+380991111111" class="link mail-menu">+38 099 111 11 11</a></li>
          </ul>
         </address>
-      </section>
+      </div>
     </footer>
   </body>
 </html>
